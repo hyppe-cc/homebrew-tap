@@ -13,5 +13,10 @@ cask "movkey" do
 
   uninstall quit: "local.movkey"
 
+  caveats <<~EOS
+    MovKey no está notarizada por Apple. Si macOS no deja abrirla, ejecuta:
+      xattr -dr com.apple.quarantine /Applications/MovKey.app
+  EOS
+
   zap trash: "~/Library/Preferences/local.movkey.plist"
 end
