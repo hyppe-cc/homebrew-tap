@@ -1,6 +1,6 @@
 cask "movkey" do
-  version "1.0.0"
-  sha256 "43fdac68523daebc9b5559408fe1298153f5024bfabcf2564739eaa320978c4b"
+  version "1.1.0"
+  sha256 "7a5e482acdcd8d9c3b0ff03ba92e0dffcb66d49593acf709aa6445f5653349f0"
 
   url "https://github.com/hyppe-cc/movkey/releases/download/v#{version}/MovKey.zip"
   name "MovKey"
