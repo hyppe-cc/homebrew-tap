@@ -7,15 +7,9 @@ cask "movkey" do
   desc "Turns off the keyboard backlight while a video plays in full screen"
   homepage "https://github.com/hyppe-cc/movkey"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MovKey.app"
-
-  # La app no está notarizada: se quita la cuarentena para que Gatekeeper no la bloquee.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/MovKey.app"]
-  end
 
   uninstall quit: "local.movkey"
 
