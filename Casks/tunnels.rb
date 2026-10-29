@@ -1,6 +1,6 @@
 cask "tunnels" do
-  version "1.0.0"
-  sha256 "d2fca76fe3f119b558c7cbf9cf5374b1d560911b86207050630b004be7a7048f"
+  version "1.0.1"
+  sha256 "6edefaec02f930a6d8593525fb8c7b9c6ac96162e81ba74a47e1b61b18ca5ab8"
 
   url "https://github.com/hyppe-cc/tunnels/releases/download/v#{version}/Tunnels.zip"
   name "Tunnels"
