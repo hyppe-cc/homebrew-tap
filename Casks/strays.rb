@@ -1,6 +1,6 @@
 cask "strays" do
-  version "1.2"
-  sha256 "6df88b7e039316c7c44c6e5b023db5d53c1ece86b7b1f198e1abae3f150165b1"
+  version "1.3"
+  sha256 "6693b34371995d53f49bf31e3b24ac7c8ce66c6fbe2c8d08199318dc5d3f1b89"
 
   url "https://github.com/hyppe-cc/strays/releases/download/v#{version}/Strays-#{version}.zip"
   name "Strays"
